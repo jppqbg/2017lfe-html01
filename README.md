@@ -100,17 +100,30 @@
 <h3>这里以后是一个侧栏，这是侧栏的标题</h3>
 <h3>侧栏注册窗口标题</h3>
 <form>
-<p>请输入邮箱地址：</p>
+请输入邮箱地址:
 <input type="text" name="这是一个文本输入框"><br>
-<p>邮箱地址请按要求输入</p><br>
-<p>请输入密码：</p><input type="text" name="这是一个文本输入框">
-<p>请重复输入密码：</p><input type="text" name="这是一个文本输入框"><br>
-<p>密码请为6-16位英文数字</p>
-</form>
+邮箱地址请按要求输入<br>
+请输入密码：<input type="text" name="这是一个文本输入框">
+请重复输入密码：<input type="text" name="这是一个文本输入框"><br>
+密码请为6-16位英文数字
 <br>
-<form>
 <input type="radio" name="sex" value="male" checked>男
 <input type="radio" name="sex" value="female">女
+<select name="水果">  
+<option value="apple">苹果</option>  
+<option value="orange">橘子</option>  
+<option value="banana">香蕉</option>  
+<option value="pear">梨</option>  
+</select> 
+爱好
+<input type="checkbox" value="sport" name="sport">运动
+<input type="checkbox" value="art" name="art">艺术
+<input type="checkbox" value="science" name="science" >科学&nbsp; &nbsp;  
+个人描述
+<textarea rows="5" cols="50">  
+</textarea>  
+<input type=submit>确认提交<br />  
+<input type=reset>  
 </form>
 <p>版权所有@</p>
 </body>
