@@ -122,8 +122,7 @@
 个人描述
 <textarea rows="5" cols="50">  
 </textarea>  
-<input type=submit>确认提交<br />  
-<input type=reset>  
+<input type="submit">确认提交 
 </form>
 <p>版权所有@</p>
 </body>
